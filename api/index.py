@@ -16,7 +16,9 @@ import tempfile
 from transformers import pipeline
 
 app = Flask(__name__)
-CORS(app,supports_credentials=True)
+from flask_cors import CORS
+
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 # Load dataset
 DATASET_PATH = "C:/Users/karth/Downloads/user_course_data_test.csv"
 df = pd.read_csv(DATASET_PATH)
