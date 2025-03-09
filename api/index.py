@@ -156,8 +156,14 @@ def nlp_clean():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/transcribe", methods=["POST"])
+@app.route("/transcribe", methods=["POST","OPTIONS"])
 def transcribe_audio():
+    if request.method == "OPTIONS":  # Handle CORS preflight request
+        response = jsonify({"message": "CORS preflight successful"})
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        response.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE")
+        response.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
+        return response, 204  # No Content
     try:
         data = request.get_json()
         video_url = data.get("video_url")
