@@ -16,7 +16,7 @@ import tempfile
 from transformers import pipeline
 
 app = Flask(__name__)
-from flask_cors import CORS
+
 
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 # Load dataset
@@ -158,7 +158,7 @@ def nlp_clean():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/transcribe", methods=["POST","OPTIONS"])
+@app.route("/transcribe", methods=["POST", "OPTIONS"])
 def transcribe_audio():
     if request.method == "OPTIONS":  # Handle CORS preflight request
         response = jsonify({"message": "CORS preflight successful"})
@@ -166,6 +166,7 @@ def transcribe_audio():
         response.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE")
         response.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
         return response, 204  # No Content
+
     try:
         data = request.get_json()
         video_url = data.get("video_url")
