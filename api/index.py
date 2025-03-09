@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 # Load dataset
-'''DATASET_PATH = "C:/Users/karth/Downloads/user_course_data_test.csv"
+DATASET_PATH = "C:/Users/karth/Downloads/user_course_data_test.csv"
 df = pd.read_csv(DATASET_PATH)
 
 df['clean_course_name'] = df['course_name'].apply(nfx.remove_stopwords)
@@ -43,13 +43,13 @@ tfidf_mat = tfidf.fit_transform(df['combined_features'])
 cosine_sim_mat = cosine_similarity(tfidf_mat)
 
 # Course Index Mapping
-course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()'''
-
+course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()
+CORS(app)
 
 model = whisper.load_model("base")
 
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-'''
+
 def recommend_courses(test_category, test_score, test_level, top_n=6):
     filtered_df = df[(df['exam_category'] == test_category) &
                      (df['exam_score'] <= test_score) &
@@ -85,12 +85,12 @@ def recommend_courses(test_category, test_score, test_level, top_n=6):
 
     final_recommendations = pd.DataFrame(recommended_courses)
     return final_recommendations['course_id'].unique().tolist()
-'''
+
 
 def summarize_text(text):
     return summarizer(text, max_length=150, min_length=50, do_sample=False)[0]["summary_text"]
 
-'''@app.route('/recommend', methods=['POST'])
+@app.route('/recommend', methods=['POST'])
 def recommend():
     data = request.get_json()
 
@@ -102,10 +102,10 @@ def recommend():
         return jsonify({"error": "Missing parameters"}), 400
 
     recommended_courses = recommend_courses(test_category, test_score, test_level)
-    return jsonify({"recommended_course_ids": recommended_courses}), 200'''
+    return jsonify({"recommended_course_ids": recommended_courses}), 200
 
 
-'''@app.route('/add_course', methods=['POST'])
+@app.route('/add_course', methods=['POST'])
 def add_course():
     global df, tfidf_mat, cosine_sim_mat, course_index
 
@@ -131,9 +131,8 @@ def add_course():
     course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()
 
     return jsonify({"message": "Course added successfully"}), 201
-'''
 
-'''@app.route('/nlp_clean', methods=['POST'])
+@app.route('/nlp_clean', methods=['POST'])
 def nlp_clean():
     try:
         text = request.json.get('text')
@@ -157,7 +156,7 @@ def nlp_clean():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-'''
+
 @app.route("/transcribe", methods=["POST", "OPTIONS"])
 def transcribe_audio():
     if request.method == "OPTIONS":  # Handle CORS preflight request
