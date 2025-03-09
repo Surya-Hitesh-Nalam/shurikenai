@@ -43,13 +43,13 @@ tfidf_mat = tfidf.fit_transform(df['combined_features'])
 cosine_sim_mat = cosine_similarity(tfidf_mat)
 
 # Course Index Mapping
-course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()
-CORS(app)'''
+course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()'''
+
 
 model = whisper.load_model("base")
 
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-
+'''
 def recommend_courses(test_category, test_score, test_level, top_n=6):
     filtered_df = df[(df['exam_category'] == test_category) &
                      (df['exam_score'] <= test_score) &
@@ -85,7 +85,7 @@ def recommend_courses(test_category, test_score, test_level, top_n=6):
 
     final_recommendations = pd.DataFrame(recommended_courses)
     return final_recommendations['course_id'].unique().tolist()
-
+'''
 
 def summarize_text(text):
     return summarizer(text, max_length=150, min_length=50, do_sample=False)[0]["summary_text"]
