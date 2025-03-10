@@ -1,2 +1,11 @@
-Flask==3.0.3
-gunicorn
+pandas
+neattext
+scikit-learn
+nltk
+flask
+flask-cors
+requests
+ffmpeg-python
+openai-whisper
+transformers
+torch
