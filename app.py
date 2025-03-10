@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 # Load dataset
-DATASET_PATH = "C:/Users/karth/Downloads/user_course_data_test.csv"
+DATASET_PATH = "./user_course_data_test.csv"
 df = pd.read_csv(DATASET_PATH)
 
 df['clean_course_name'] = df['course_name'].apply(nfx.remove_stopwords)
