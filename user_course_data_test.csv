@@ -1,0 +1,501 @@
+course_id,course_name,rating,course_level,exam_category,exam_score,exam_level
+1,Embedded Systems Programming,4.3,Advanced,Data Visualization,85,Medium
+2,Virtual Reality Development,4.6,Advanced,Machine Learning,91,Medium
+3,Natural Language Processing,4.4,Intermediate,Statistics,86,Medium
+4,Natural Language Processing,4.7,Beginner,Machine Learning,83,Hard
+5,Natural Language Processing,3.6,Beginner,Networking,94,Hard
+6,Introduction to Python,4.1,Intermediate,Statistics,69,Medium
+7,Machine Learning Basics,4.2,Beginner,Programming,56,Hard
+8,Machine Learning Basics,4.6,Beginner,Data Science,97,Medium
+9,PHP and MySQL,4.2,Intermediate,Statistics,61,Medium
+10,PHP and MySQL,3.5,Intermediate,Blockchain,82,Easy
+11,Game Development with Unity,3.7,Beginner,Security,98,Easy
+12,Node.js and Express.js,4.3,Intermediate,Data Visualization,70,Easy
+13,Introduction to Python,3.9,Intermediate,Security,88,Easy
+14,Blockchain Basics,3.8,Advanced,Web Development,80,Medium
+15,Software Testing,4.0,Beginner,Machine Learning,91,Easy
+16,Game Development with Unity,4.5,Beginner,Cloud Computing,69,Medium
+17,Data Science with Python,4.9,Intermediate,DevOps,85,Easy
+18,Kubernetes Mastery,4.9,Beginner,Cybersecurity,75,Hard
+19,Data Visualization with Python,4.8,Advanced,Database,66,Easy
+20,Natural Language Processing,3.7,Beginner,Networking,94,Hard
+21,Web Development Bootcamp,4.9,Intermediate,AI,65,Medium
+22,Virtual Reality Development,3.6,Intermediate,Networking,69,Easy
+23,Django for Web Development,4.6,Intermediate,Security,95,Medium
+24,Augmented Reality Development,4.7,Advanced,Networking,57,Hard
+25,Data Science with Python,4.8,Intermediate,Deep Learning,92,Medium
+26,Game Development with Unity,4.7,Beginner,AI,81,Easy
+27,Mobile App Development with Flutter,4.9,Advanced,Networking,69,Easy
+28,Node.js and Express.js,4.8,Advanced,Deep Learning,86,Easy
+29,DevOps Essentials,3.7,Intermediate,Cloud Computing,88,Medium
+30,Game Development with Unity,4.0,Advanced,AI,60,Hard
+31,Machine Learning Basics,4.5,Advanced,Data Visualization,80,Easy
+32,Full Stack Web Development,4.5,Advanced,Statistics,60,Medium
+33,Software Testing,3.7,Advanced,Database,63,Medium
+34,Deep Learning Specialization,3.9,Advanced,Security,69,Medium
+35,Rust Programming,4.2,Advanced,Database,91,Hard
+36,Linux Administration,4.1,Advanced,Machine Learning,85,Easy
+37,Virtual Reality Development,4.1,Advanced,Cybersecurity,76,Medium
+38,PHP and MySQL,4.9,Beginner,Networking,52,Medium
+39,Data Science with Python,3.6,Intermediate,Blockchain,81,Hard
+40,Web Development Bootcamp,4.1,Intermediate,Cybersecurity,61,Easy
+41,Software Testing,3.6,Advanced,Python,71,Hard
+42,Django for Web Development,3.6,Beginner,Web Development,72,Medium
+43,Node.js and Express.js,4.9,Beginner,Blockchain,74,Easy
+44,Django for Web Development,3.7,Beginner,Web Development,60,Medium
+45,Data Visualization with Python,5.0,Beginner,Data Visualization,56,Hard
+46,Kubernetes Mastery,4.1,Advanced,Cloud Computing,96,Medium
+47,Django for Web Development,4.3,Beginner,Deep Learning,81,Easy
+48,Rust Programming,3.9,Intermediate,Web Development,98,Medium
+49,Ethical Hacking,4.5,Advanced,Python,78,Easy
+50,TensorFlow for AI,4.2,Intermediate,Deep Learning,79,Hard
+51,Cloud Computing,4.6,Beginner,Database,95,Hard
+52,Advanced Machine Learning,5.0,Beginner,Python,63,Medium
+53,Introduction to SQL,4.5,Advanced,Statistics,90,Hard
+54,Advanced Machine Learning,3.6,Advanced,Security,81,Easy
+55,Mobile App Development with Flutter,3.9,Beginner,Python,91,Easy
+56,Node.js and Express.js,3.6,Intermediate,DevOps,68,Medium
+57,Data Visualization with Python,3.5,Intermediate,Programming,91,Medium
+58,Django for Web Development,4.2,Beginner,Data Science,71,Hard
+59,Game Development with Unity,4.8,Advanced,Machine Learning,88,Easy
+60,Introduction to Python,3.9,Advanced,Programming,77,Easy
+61,Introduction to Python,3.6,Beginner,Machine Learning,94,Easy
+62,Full Stack Web Development,4.3,Intermediate,Deep Learning,80,Easy
+63,Big Data Analytics,4.0,Advanced,AI,78,Easy
+64,Introduction to Python,3.5,Beginner,Python,82,Medium
+65,Natural Language Processing,3.8,Intermediate,DevOps,92,Hard
+66,Cloud Computing,3.7,Beginner,AI,91,Medium
+67,PHP and MySQL,4.2,Intermediate,AI,51,Hard
+68,Introduction to Python,3.6,Beginner,Statistics,50,Medium
+69,Rust Programming,3.6,Advanced,Python,86,Hard
+70,Node.js and Express.js,4.4,Intermediate,Database,68,Medium
+71,React.js Crash Course,4.6,Intermediate,Statistics,88,Hard
+72,Ethical Hacking,3.9,Beginner,Data Science,84,Medium
+73,Java Programming,3.9,Beginner,Database,66,Medium
+74,Node.js and Express.js,5.0,Advanced,Machine Learning,84,Easy
+75,Cybersecurity Fundamentals,4.0,Advanced,Blockchain,72,Medium
+76,Natural Language Processing,4.0,Intermediate,Deep Learning,65,Hard
+77,Linux Administration,5.0,Beginner,DevOps,98,Hard
+78,Rust Programming,4.5,Intermediate,Deep Learning,90,Medium
+79,DevOps Essentials,4.2,Beginner,Statistics,50,Easy
+80,Embedded Systems Programming,3.6,Beginner,Networking,83,Medium
+81,Introduction to Python,5.0,Advanced,Programming,93,Medium
+82,Advanced Machine Learning,4.2,Intermediate,AI,88,Medium
+83,React.js Crash Course,3.8,Intermediate,Data Visualization,77,Easy
+84,Computer Vision with OpenCV,4.2,Intermediate,Python,59,Hard
+85,Natural Language Processing,4.2,Intermediate,Web Development,94,Easy
+86,Web Development Bootcamp,4.0,Beginner,Security,81,Medium
+87,Software Testing,4.2,Intermediate,Data Science,67,Hard
+88,Introduction to SQL,4.5,Intermediate,Machine Learning,77,Hard
+89,Node.js and Express.js,3.5,Intermediate,Programming,73,Easy
+90,Data Visualization with Python,4.4,Intermediate,DevOps,73,Hard
+91,Rust Programming,4.8,Beginner,Statistics,97,Easy
+92,Natural Language Processing,4.5,Beginner,Cloud Computing,61,Easy
+93,React.js Crash Course,4.9,Advanced,Data Visualization,52,Medium
+94,Cybersecurity Fundamentals,3.9,Beginner,DevOps,97,Hard
+95,Cybersecurity Fundamentals,4.6,Beginner,Machine Learning,79,Medium
+96,Artificial Intelligence Fundamentals,3.7,Intermediate,Machine Learning,51,Hard
+97,DevOps Essentials,4.9,Advanced,AI,73,Medium
+98,Mobile App Development with Flutter,4.1,Advanced,Blockchain,58,Medium
+99,Artificial Intelligence Fundamentals,4.6,Advanced,Machine Learning,86,Hard
+100,DevOps Essentials,4.5,Advanced,Database,69,Hard
+101,TensorFlow for AI,4.6,Beginner,Machine Learning,88,Hard
+102,React.js Crash Course,4.0,Advanced,Web Development,99,Easy
+103,React.js Crash Course,4.5,Intermediate,Python,79,Hard
+104,Statistics for Data Science,3.8,Beginner,Blockchain,70,Hard
+105,Full Stack Web Development,4.4,Intermediate,Data Visualization,57,Medium
+106,Web Development Bootcamp,4.0,Beginner,Data Science,83,Easy
+107,Virtual Reality Development,4.2,Advanced,Cloud Computing,99,Medium
+108,Full Stack Web Development,3.7,Advanced,Cloud Computing,64,Easy
+109,Introduction to SQL,4.0,Beginner,Data Visualization,82,Medium
+110,Kubernetes Mastery,3.6,Advanced,Statistics,77,Easy
+111,Game Development with Unity,4.0,Advanced,Deep Learning,63,Medium
+112,Software Testing,3.9,Intermediate,DevOps,54,Easy
+113,Blockchain Basics,4.2,Advanced,Statistics,67,Medium
+114,Computer Vision with OpenCV,4.9,Beginner,Cloud Computing,79,Hard
+115,TensorFlow for AI,4.7,Intermediate,Statistics,90,Medium
+116,Game Development with Unity,4.0,Intermediate,Statistics,50,Hard
+117,Embedded Systems Programming,3.8,Intermediate,Python,100,Hard
+118,IT Security,4.3,Advanced,Data Science,75,Medium
+119,Kubernetes Mastery,4.2,Beginner,Web Development,97,Hard
+120,Kubernetes Mastery,3.9,Advanced,Cybersecurity,55,Easy
+121,Rust Programming,4.2,Beginner,Cybersecurity,50,Hard
+122,Advanced Machine Learning,3.6,Advanced,Security,79,Hard
+123,Cybersecurity Fundamentals,5.0,Advanced,Security,88,Easy
+124,Networking Essentials,4.5,Advanced,Statistics,75,Hard
+125,Software Testing,3.7,Intermediate,Machine Learning,87,Hard
+126,Cybersecurity Fundamentals,4.9,Intermediate,Programming,60,Hard
+127,Virtual Reality Development,4.0,Beginner,Networking,74,Easy
+128,Cloud Computing,4.3,Advanced,Statistics,57,Hard
+129,Rust Programming,4.3,Intermediate,Security,52,Hard
+130,Rust Programming,4.1,Intermediate,Networking,90,Easy
+131,Computer Vision with OpenCV,4.4,Beginner,Networking,87,Hard
+132,Data Science with Python,4.7,Beginner,Python,91,Medium
+133,Introduction to SQL,3.8,Intermediate,Programming,52,Hard
+134,Game Development with Unity,3.9,Intermediate,Networking,67,Easy
+135,Game Development with Unity,3.6,Beginner,Cloud Computing,98,Easy
+136,Full Stack Web Development,3.9,Advanced,Data Visualization,74,Medium
+137,DevOps Essentials,4.2,Beginner,Database,53,Easy
+138,Ethical Hacking,3.8,Beginner,Data Science,98,Hard
+139,Introduction to Python,4.0,Beginner,Programming,79,Easy
+140,Cybersecurity Fundamentals,4.0,Beginner,Data Visualization,50,Hard
+141,Deep Learning Specialization,4.3,Beginner,Web Development,56,Hard
+142,Java Programming,3.9,Beginner,Machine Learning,75,Easy
+143,Web Development Bootcamp,4.7,Beginner,Statistics,93,Hard
+144,Ethical Hacking,3.6,Intermediate,Cybersecurity,81,Medium
+145,Deep Learning Specialization,4.6,Advanced,Cybersecurity,74,Medium
+146,Cloud Computing,3.7,Advanced,Database,65,Easy
+147,Blockchain Basics,4.9,Advanced,Machine Learning,83,Medium
+148,Virtual Reality Development,3.8,Advanced,Data Science,81,Hard
+149,Artificial Intelligence Fundamentals,4.7,Beginner,Python,57,Medium
+150,Data Science with Python,4.6,Intermediate,Cloud Computing,62,Medium
+151,Data Visualization with Python,3.9,Advanced,Security,84,Hard
+152,Computer Vision with OpenCV,4.5,Beginner,DevOps,72,Hard
+153,C++ for Beginners,4.0,Advanced,Data Science,89,Hard
+154,C++ for Beginners,4.4,Advanced,Database,65,Medium
+155,Software Testing,4.3,Beginner,Machine Learning,69,Easy
+156,Web Development Bootcamp,3.9,Advanced,Deep Learning,93,Easy
+157,Machine Learning Basics,4.6,Advanced,Data Science,59,Easy
+158,Data Visualization with Python,3.9,Intermediate,Database,82,Easy
+159,PHP and MySQL,4.4,Advanced,Cybersecurity,88,Easy
+160,Kubernetes Mastery,4.6,Advanced,Deep Learning,51,Hard
+161,Statistics for Data Science,4.1,Intermediate,Python,90,Medium
+162,Natural Language Processing,3.9,Beginner,Networking,82,Medium
+163,Java Programming,4.5,Intermediate,Statistics,65,Easy
+164,Ethical Hacking,4.2,Beginner,Security,61,Medium
+165,Computer Vision with OpenCV,4.6,Advanced,AI,84,Hard
+166,Node.js and Express.js,4.0,Beginner,Python,82,Hard
+167,Data Structures and Algorithms,5.0,Intermediate,Data Visualization,88,Medium
+168,DevOps Essentials,4.6,Intermediate,Security,98,Medium
+169,Data Science with Python,3.6,Advanced,Python,53,Hard
+170,Introduction to SQL,3.9,Advanced,Database,63,Medium
+171,React.js Crash Course,4.5,Intermediate,Web Development,81,Easy
+172,Embedded Systems Programming,4.8,Beginner,Statistics,98,Hard
+173,Kubernetes Mastery,4.4,Beginner,AI,59,Medium
+174,C++ for Beginners,5.0,Beginner,Cybersecurity,89,Hard
+175,Mobile App Development with Flutter,3.6,Advanced,Cybersecurity,96,Medium
+176,Ethical Hacking,4.6,Intermediate,Python,51,Hard
+177,Data Science with Python,3.6,Advanced,Cybersecurity,89,Easy
+178,Mobile App Development with Flutter,4.1,Advanced,Cloud Computing,90,Medium
+179,Virtual Reality Development,4.7,Intermediate,Blockchain,68,Hard
+180,Deep Learning Specialization,4.9,Advanced,AI,80,Easy
+181,IT Security,4.1,Advanced,AI,100,Medium
+182,Data Visualization with Python,4.2,Advanced,Cybersecurity,57,Medium
+183,PHP and MySQL,4.6,Beginner,Blockchain,85,Medium
+184,Deep Learning Specialization,3.6,Beginner,DevOps,87,Hard
+185,Kubernetes Mastery,3.7,Advanced,AI,64,Easy
+186,Advanced Machine Learning,4.6,Beginner,Networking,69,Hard
+187,Django for Web Development,3.9,Advanced,Machine Learning,91,Medium
+188,Blockchain Basics,4.7,Intermediate,Data Science,82,Easy
+189,Linux Administration,4.4,Intermediate,Web Development,51,Hard
+190,Introduction to Python,4.2,Beginner,Blockchain,91,Easy
+191,Rust Programming,4.9,Beginner,Security,68,Hard
+192,Artificial Intelligence Fundamentals,4.0,Intermediate,Security,69,Medium
+193,Node.js and Express.js,4.5,Advanced,Database,75,Easy
+194,Embedded Systems Programming,3.9,Intermediate,Cybersecurity,97,Hard
+195,Natural Language Processing,4.3,Beginner,Cybersecurity,87,Medium
+196,TensorFlow for AI,4.3,Intermediate,Data Visualization,62,Easy
+197,C++ for Beginners,4.7,Advanced,Blockchain,84,Hard
+198,Data Science with Python,3.6,Beginner,Machine Learning,78,Medium
+199,Natural Language Processing,4.7,Advanced,Blockchain,79,Hard
+200,Virtual Reality Development,4.3,Advanced,AI,77,Hard
+201,Machine Learning Basics,4.6,Advanced,AI,53,Hard
+202,Full Stack Web Development,4.1,Beginner,Database,73,Hard
+203,Kubernetes Mastery,4.8,Beginner,Cloud Computing,89,Easy
+204,Rust Programming,3.7,Intermediate,Networking,69,Hard
+205,Django for Web Development,4.6,Advanced,Programming,68,Medium
+206,Introduction to SQL,4.0,Intermediate,Cybersecurity,51,Medium
+207,Machine Learning Basics,4.2,Beginner,Data Visualization,74,Medium
+208,Node.js and Express.js,4.1,Advanced,Cloud Computing,62,Medium
+209,Introduction to SQL,4.7,Intermediate,Networking,78,Hard
+210,Statistics for Data Science,4.8,Advanced,Security,61,Medium
+211,Web Development Bootcamp,4.9,Beginner,DevOps,89,Easy
+212,Node.js and Express.js,4.1,Intermediate,Statistics,70,Hard
+213,Introduction to Python,4.1,Advanced,Blockchain,60,Easy
+214,Augmented Reality Development,3.7,Intermediate,Data Science,65,Medium
+215,Java Programming,3.9,Beginner,Data Science,74,Hard
+216,Cybersecurity Fundamentals,4.5,Beginner,Web Development,88,Hard
+217,Big Data Analytics,3.7,Advanced,Blockchain,61,Hard
+218,Virtual Reality Development,4.8,Intermediate,Cybersecurity,79,Hard
+219,TensorFlow for AI,4.0,Beginner,Machine Learning,60,Medium
+220,Advanced Machine Learning,4.3,Advanced,Networking,70,Hard
+221,Big Data Analytics,4.5,Advanced,Machine Learning,59,Medium
+222,IT Security,4.3,Advanced,Data Visualization,80,Hard
+223,Linux Administration,3.7,Intermediate,Cloud Computing,83,Medium
+224,Computer Vision with OpenCV,4.4,Advanced,Networking,53,Easy
+225,Artificial Intelligence Fundamentals,4.2,Beginner,Python,81,Hard
+226,Introduction to Python,4.0,Intermediate,Programming,58,Easy
+227,Cybersecurity Fundamentals,3.8,Advanced,Web Development,59,Medium
+228,Game Development with Unity,3.7,Advanced,Cybersecurity,65,Medium
+229,Software Testing,4.7,Advanced,Python,81,Hard
+230,Deep Learning Specialization,3.9,Advanced,Data Science,50,Easy
+231,Web Development Bootcamp,4.0,Beginner,Data Science,91,Hard
+232,Full Stack Web Development,4.6,Intermediate,AI,51,Medium
+233,Statistics for Data Science,3.6,Intermediate,Cybersecurity,56,Hard
+234,Full Stack Web Development,4.1,Advanced,Networking,70,Easy
+235,Statistics for Data Science,4.4,Beginner,Networking,60,Easy
+236,Cybersecurity Fundamentals,4.9,Beginner,Machine Learning,90,Easy
+237,PHP and MySQL,4.2,Beginner,Web Development,94,Hard
+238,Deep Learning Specialization,4.6,Advanced,Statistics,72,Easy
+239,Introduction to Python,4.0,Advanced,Data Visualization,94,Medium
+240,DevOps Essentials,4.8,Advanced,Programming,70,Hard
+241,Big Data Analytics,4.6,Intermediate,Machine Learning,66,Hard
+242,Cybersecurity Fundamentals,3.8,Beginner,Statistics,91,Easy
+243,PHP and MySQL,3.6,Intermediate,Web Development,71,Easy
+244,Cloud Computing,4.9,Intermediate,Database,98,Hard
+245,Full Stack Web Development,4.8,Beginner,Cybersecurity,68,Medium
+246,Data Visualization with Python,4.3,Beginner,Statistics,80,Hard
+247,Statistics for Data Science,4.9,Beginner,Data Visualization,67,Medium
+248,Kubernetes Mastery,3.8,Advanced,Database,56,Hard
+249,Introduction to Python,4.5,Intermediate,Programming,77,Hard
+250,Embedded Systems Programming,4.1,Intermediate,Web Development,85,Hard
+251,Java Programming,3.7,Intermediate,AI,53,Medium
+252,TensorFlow for AI,4.9,Beginner,Python,56,Easy
+253,Big Data Analytics,3.6,Intermediate,Statistics,97,Medium
+254,Cybersecurity Fundamentals,4.9,Intermediate,Machine Learning,79,Medium
+255,Augmented Reality Development,4.3,Intermediate,Web Development,70,Easy
+256,Game Development with Unity,4.7,Intermediate,Blockchain,97,Medium
+257,Deep Learning Specialization,3.7,Advanced,AI,86,Hard
+258,Data Visualization with Python,4.7,Advanced,DevOps,92,Medium
+259,Data Structures and Algorithms,4.4,Beginner,Security,90,Medium
+260,Data Visualization with Python,4.2,Advanced,Python,88,Easy
+261,C++ for Beginners,4.4,Advanced,Cybersecurity,59,Medium
+262,Java Programming,3.9,Intermediate,DevOps,82,Easy
+263,Embedded Systems Programming,3.6,Intermediate,Database,75,Easy
+264,IT Security,4.7,Advanced,Data Science,55,Medium
+265,Blockchain Basics,4.4,Intermediate,Database,88,Hard
+266,Linux Administration,4.9,Beginner,AI,99,Medium
+267,Statistics for Data Science,4.3,Beginner,Cloud Computing,69,Medium
+268,Java Programming,4.2,Advanced,Data Visualization,58,Medium
+269,Natural Language Processing,3.7,Intermediate,Networking,76,Hard
+270,Linux Administration,4.3,Intermediate,Database,52,Hard
+271,Cybersecurity Fundamentals,4.6,Beginner,Python,87,Hard
+272,DevOps Essentials,3.8,Advanced,Cloud Computing,72,Medium
+273,Embedded Systems Programming,4.7,Advanced,Deep Learning,95,Easy
+274,Big Data Analytics,4.2,Advanced,Blockchain,82,Medium
+275,Statistics for Data Science,4.5,Beginner,Cloud Computing,77,Hard
+276,Big Data Analytics,4.5,Advanced,Programming,75,Hard
+277,Software Testing,4.8,Advanced,Web Development,65,Easy
+278,Computer Vision with OpenCV,4.6,Advanced,DevOps,92,Hard
+279,Computer Vision with OpenCV,4.8,Intermediate,Deep Learning,72,Medium
+280,Blockchain Basics,4.6,Intermediate,Cloud Computing,98,Easy
+281,Java Programming,4.9,Advanced,Data Science,59,Hard
+282,DevOps Essentials,4.7,Beginner,Deep Learning,55,Medium
+283,Game Development with Unity,4.9,Advanced,Programming,88,Hard
+284,Mobile App Development with Flutter,4.3,Advanced,Deep Learning,88,Medium
+285,Software Testing,4.3,Advanced,DevOps,95,Hard
+286,Rust Programming,3.9,Intermediate,Python,64,Hard
+287,Networking Essentials,3.6,Intermediate,Security,82,Easy
+288,Embedded Systems Programming,4.0,Advanced,Networking,81,Hard
+289,Blockchain Basics,4.8,Beginner,Networking,77,Easy
+290,Data Structures and Algorithms,4.2,Advanced,Cloud Computing,70,Hard
+291,Cybersecurity Fundamentals,4.0,Beginner,AI,68,Easy
+292,Deep Learning Specialization,3.6,Intermediate,Database,92,Hard
+293,Node.js and Express.js,3.8,Advanced,Database,55,Easy
+294,Machine Learning Basics,4.6,Advanced,Security,75,Easy
+295,Linux Administration,4.6,Advanced,AI,56,Medium
+296,Augmented Reality Development,3.7,Intermediate,AI,82,Hard
+297,Cybersecurity Fundamentals,4.1,Advanced,DevOps,98,Hard
+298,Big Data Analytics,4.3,Advanced,Data Visualization,79,Medium
+299,Cybersecurity Fundamentals,4.2,Beginner,Cybersecurity,65,Hard
+300,Data Visualization with Python,3.9,Intermediate,Data Science,75,Medium
+301,IT Security,4.6,Beginner,Security,77,Easy
+302,IT Security,3.8,Intermediate,Data Visualization,74,Easy
+303,Blockchain Basics,4.5,Beginner,Web Development,73,Hard
+304,Data Visualization with Python,4.0,Beginner,Cloud Computing,53,Easy
+305,PHP and MySQL,3.7,Intermediate,Data Science,59,Medium
+306,Cybersecurity Fundamentals,4.1,Advanced,Blockchain,51,Hard
+307,Game Development with Unity,4.4,Intermediate,AI,51,Medium
+308,IT Security,4.2,Intermediate,AI,96,Hard
+309,Statistics for Data Science,3.9,Beginner,Machine Learning,88,Easy
+310,Cybersecurity Fundamentals,4.9,Intermediate,Networking,65,Easy
+311,Linux Administration,4.6,Advanced,Statistics,78,Hard
+312,Data Science with Python,4.1,Beginner,Networking,79,Hard
+313,Deep Learning Specialization,4.4,Advanced,Blockchain,99,Easy
+314,Deep Learning Specialization,4.6,Advanced,Machine Learning,77,Easy
+315,Kubernetes Mastery,3.9,Intermediate,Statistics,52,Medium
+316,Statistics for Data Science,4.7,Intermediate,Cloud Computing,71,Easy
+317,TensorFlow for AI,4.4,Advanced,Python,65,Easy
+318,Augmented Reality Development,3.6,Advanced,Statistics,58,Easy
+319,Blockchain Basics,3.8,Advanced,Security,83,Hard
+320,Machine Learning Basics,4.0,Advanced,Database,80,Medium
+321,PHP and MySQL,3.9,Advanced,Deep Learning,92,Medium
+322,Software Testing,4.6,Advanced,Cloud Computing,79,Easy
+323,Virtual Reality Development,3.8,Intermediate,Statistics,92,Medium
+324,React.js Crash Course,3.9,Advanced,Python,76,Easy
+325,Data Visualization with Python,4.2,Intermediate,Statistics,90,Hard
+326,Data Visualization with Python,4.8,Intermediate,Cybersecurity,87,Hard
+327,Introduction to SQL,4.2,Intermediate,DevOps,89,Easy
+328,Artificial Intelligence Fundamentals,3.7,Beginner,Statistics,50,Hard
+329,Node.js and Express.js,3.7,Advanced,Machine Learning,83,Medium
+330,Blockchain Basics,4.2,Beginner,Security,73,Hard
+331,Cybersecurity Fundamentals,4.1,Beginner,Database,62,Medium
+332,Embedded Systems Programming,4.5,Intermediate,Deep Learning,64,Easy
+333,Big Data Analytics,4.4,Advanced,Deep Learning,58,Medium
+334,Kubernetes Mastery,4.4,Advanced,Machine Learning,75,Hard
+335,Java Programming,4.2,Advanced,DevOps,64,Easy
+336,Artificial Intelligence Fundamentals,4.4,Intermediate,DevOps,92,Hard
+337,Networking Essentials,4.3,Beginner,Statistics,98,Medium
+338,Software Testing,4.6,Intermediate,Networking,58,Hard
+339,Embedded Systems Programming,3.9,Intermediate,Data Science,62,Easy
+340,Embedded Systems Programming,3.6,Intermediate,Database,78,Medium
+341,Deep Learning Specialization,4.8,Intermediate,Cybersecurity,100,Easy
+342,Java Programming,4.7,Beginner,Data Science,67,Easy
+343,PHP and MySQL,4.1,Advanced,Web Development,61,Hard
+344,Introduction to Python,4.7,Beginner,Deep Learning,59,Medium
+345,Machine Learning Basics,4.8,Intermediate,DevOps,89,Medium
+346,Kubernetes Mastery,3.5,Intermediate,Cybersecurity,53,Easy
+347,Web Development Bootcamp,3.6,Advanced,Cloud Computing,84,Hard
+348,Software Testing,4.2,Beginner,Cybersecurity,73,Easy
+349,Linux Administration,4.9,Advanced,Data Science,94,Medium
+350,C++ for Beginners,4.2,Intermediate,Python,94,Easy
+351,Data Science with Python,4.2,Advanced,Networking,98,Medium
+352,Web Development Bootcamp,4.8,Intermediate,Machine Learning,70,Easy
+353,TensorFlow for AI,3.5,Beginner,Machine Learning,68,Easy
+354,Introduction to Python,5.0,Advanced,Cloud Computing,79,Hard
+355,Advanced Machine Learning,4.6,Beginner,Blockchain,51,Medium
+356,Introduction to SQL,3.5,Beginner,Data Science,63,Medium
+357,Statistics for Data Science,3.9,Beginner,Python,67,Medium
+358,Advanced Machine Learning,4.0,Intermediate,Statistics,57,Hard
+359,Data Science with Python,4.2,Beginner,Networking,51,Hard
+360,Data Science with Python,4.0,Intermediate,Machine Learning,75,Medium
+361,Advanced Machine Learning,4.5,Advanced,Python,92,Medium
+362,Full Stack Web Development,4.2,Intermediate,Programming,84,Easy
+363,Django for Web Development,4.2,Beginner,Data Visualization,55,Medium
+364,Software Testing,3.6,Advanced,Data Science,98,Medium
+365,Machine Learning Basics,4.2,Beginner,Security,58,Hard
+366,React.js Crash Course,3.8,Intermediate,Blockchain,69,Hard
+367,Kubernetes Mastery,4.6,Intermediate,DevOps,56,Medium
+368,PHP and MySQL,4.1,Beginner,Data Science,50,Easy
+369,Cloud Computing,4.1,Beginner,Cybersecurity,99,Hard
+370,Advanced Machine Learning,4.2,Advanced,Machine Learning,72,Easy
+371,Node.js and Express.js,3.5,Advanced,Deep Learning,70,Medium
+372,Introduction to SQL,4.9,Intermediate,Security,82,Hard
+373,Game Development with Unity,3.6,Advanced,Deep Learning,51,Hard
+374,Virtual Reality Development,3.6,Intermediate,Web Development,65,Easy
+375,Mobile App Development with Flutter,4.6,Advanced,Networking,56,Medium
+376,Data Structures and Algorithms,4.9,Intermediate,Statistics,70,Medium
+377,IT Security,4.9,Intermediate,Data Science,100,Medium
+378,Software Testing,4.3,Intermediate,Networking,91,Easy
+379,React.js Crash Course,4.5,Beginner,Data Visualization,52,Medium
+380,Data Structures and Algorithms,3.6,Advanced,Data Visualization,84,Medium
+381,PHP and MySQL,4.3,Beginner,Cloud Computing,89,Easy
+382,Ethical Hacking,4.2,Advanced,Deep Learning,81,Easy
+383,Ethical Hacking,4.3,Beginner,Deep Learning,87,Medium
+384,PHP and MySQL,3.9,Advanced,Networking,82,Easy
+385,Data Structures and Algorithms,3.7,Advanced,Web Development,59,Hard
+386,Cloud Computing,3.8,Intermediate,Database,77,Medium
+387,Django for Web Development,3.8,Intermediate,AI,98,Easy
+388,Blockchain Basics,5.0,Advanced,Statistics,94,Medium
+389,Full Stack Web Development,5.0,Advanced,Networking,66,Medium
+390,Data Science with Python,4.1,Advanced,Data Science,54,Hard
+391,Mobile App Development with Flutter,4.6,Beginner,Blockchain,79,Easy
+392,Introduction to Python,4.4,Intermediate,Blockchain,56,Hard
+393,Augmented Reality Development,4.5,Intermediate,Deep Learning,82,Easy
+394,Data Visualization with Python,4.3,Advanced,Python,52,Easy
+395,Java Programming,4.2,Advanced,Programming,53,Medium
+396,Virtual Reality Development,3.7,Intermediate,Database,94,Hard
+397,Cybersecurity Fundamentals,3.6,Beginner,Web Development,84,Medium
+398,Statistics for Data Science,4.6,Advanced,Database,100,Medium
+399,C++ for Beginners,4.4,Beginner,Programming,80,Hard
+400,Statistics for Data Science,3.7,Intermediate,Cloud Computing,68,Medium
+401,React.js Crash Course,3.7,Advanced,AI,89,Hard
+402,Augmented Reality Development,3.7,Beginner,Database,77,Medium
+403,Computer Vision with OpenCV,4.8,Beginner,Statistics,78,Easy
+404,Blockchain Basics,4.1,Advanced,AI,88,Easy
+405,Artificial Intelligence Fundamentals,4.5,Intermediate,Web Development,63,Hard
+406,Machine Learning Basics,3.6,Intermediate,Web Development,100,Hard
+407,Advanced Machine Learning,3.6,Intermediate,Web Development,64,Medium
+408,React.js Crash Course,4.1,Advanced,Cloud Computing,51,Easy
+409,Introduction to SQL,4.2,Advanced,AI,66,Medium
+410,Web Development Bootcamp,3.8,Advanced,Programming,100,Medium
+411,Machine Learning Basics,4.8,Intermediate,Web Development,97,Medium
+412,Blockchain Basics,4.8,Advanced,Database,94,Medium
+413,Introduction to Python,4.4,Beginner,Networking,64,Hard
+414,Web Development Bootcamp,3.5,Intermediate,AI,85,Hard
+415,PHP and MySQL,4.0,Beginner,Deep Learning,59,Hard
+416,DevOps Essentials,3.5,Beginner,Cybersecurity,98,Medium
+417,Advanced Machine Learning,4.9,Intermediate,DevOps,75,Hard
+418,Linux Administration,4.0,Advanced,Data Visualization,92,Medium
+419,C++ for Beginners,4.3,Beginner,Database,61,Hard
+420,Deep Learning Specialization,4.0,Intermediate,Blockchain,69,Hard
+421,Artificial Intelligence Fundamentals,3.5,Advanced,Data Visualization,77,Easy
+422,Rust Programming,5.0,Intermediate,Cloud Computing,58,Hard
+423,Cybersecurity Fundamentals,3.8,Advanced,Programming,96,Easy
+424,Rust Programming,4.9,Advanced,Blockchain,99,Hard
+425,Java Programming,3.8,Intermediate,Blockchain,80,Medium
+426,Java Programming,4.7,Advanced,Web Development,66,Hard
+427,Machine Learning Basics,4.2,Beginner,Deep Learning,83,Easy
+428,Deep Learning Specialization,4.8,Advanced,Networking,65,Medium
+429,Cybersecurity Fundamentals,4.6,Beginner,Cloud Computing,90,Hard
+430,Cybersecurity Fundamentals,4.6,Beginner,DevOps,60,Medium
+431,Data Structures and Algorithms,3.5,Beginner,Cloud Computing,69,Medium
+432,Full Stack Web Development,4.3,Intermediate,DevOps,68,Medium
+433,Ethical Hacking,4.6,Beginner,Machine Learning,79,Easy
+434,Full Stack Web Development,3.8,Intermediate,DevOps,64,Medium
+435,Data Visualization with Python,4.0,Advanced,Networking,75,Medium
+436,Networking Essentials,4.7,Advanced,Networking,61,Medium
+437,Data Visualization with Python,4.7,Intermediate,Deep Learning,51,Easy
+438,Computer Vision with OpenCV,3.7,Intermediate,Statistics,69,Medium
+439,TensorFlow for AI,4.3,Intermediate,Cybersecurity,64,Easy
+440,Django for Web Development,3.6,Intermediate,Networking,57,Hard
+441,Blockchain Basics,4.4,Advanced,Database,72,Easy
+442,Cloud Computing,3.8,Beginner,Cybersecurity,78,Easy
+443,Java Programming,3.9,Intermediate,Networking,83,Easy
+444,Cybersecurity Fundamentals,4.6,Advanced,Machine Learning,78,Easy
+445,Java Programming,4.1,Intermediate,Data Science,98,Medium
+446,Big Data Analytics,4.3,Advanced,Security,94,Easy
+447,Kubernetes Mastery,4.9,Advanced,Web Development,71,Hard
+448,DevOps Essentials,4.3,Beginner,Blockchain,68,Medium
+449,Django for Web Development,4.7,Advanced,AI,96,Medium
+450,Kubernetes Mastery,3.5,Advanced,Web Development,90,Hard
+451,Kubernetes Mastery,4.9,Intermediate,Data Visualization,79,Medium
+452,Rust Programming,4.4,Beginner,Statistics,54,Easy
+453,Introduction to Python,4.3,Intermediate,Cybersecurity,90,Hard
+454,Web Development Bootcamp,3.7,Advanced,Machine Learning,52,Hard
+455,Mobile App Development with Flutter,4.2,Beginner,Python,84,Hard
+456,Networking Essentials,3.7,Advanced,Blockchain,86,Hard
+457,PHP and MySQL,3.5,Intermediate,Statistics,81,Medium
+458,Virtual Reality Development,4.8,Beginner,Statistics,74,Hard
+459,React.js Crash Course,4.8,Beginner,Machine Learning,90,Hard
+460,Web Development Bootcamp,3.5,Advanced,Cybersecurity,64,Medium
+461,Virtual Reality Development,3.6,Advanced,Database,68,Hard
+462,Web Development Bootcamp,3.9,Advanced,Machine Learning,81,Hard
+463,PHP and MySQL,3.9,Advanced,Data Science,80,Hard
+464,Data Science with Python,4.4,Intermediate,Web Development,76,Easy
+465,Virtual Reality Development,3.9,Advanced,Security,79,Hard
+466,Artificial Intelligence Fundamentals,3.9,Beginner,DevOps,71,Medium
+467,Game Development with Unity,4.6,Advanced,Cloud Computing,72,Hard
+468,Computer Vision with OpenCV,3.5,Advanced,DevOps,77,Easy
+469,Natural Language Processing,4.2,Intermediate,Cybersecurity,76,Hard
+470,C++ for Beginners,4.4,Advanced,Cloud Computing,93,Hard
+471,Web Development Bootcamp,4.6,Advanced,Blockchain,50,Hard
+472,TensorFlow for AI,4.4,Advanced,Cloud Computing,72,Hard
+473,Django for Web Development,4.0,Advanced,Python,52,Medium
+474,Networking Essentials,4.7,Intermediate,Networking,93,Hard
+475,Machine Learning Basics,3.6,Intermediate,Cybersecurity,78,Hard
+476,Virtual Reality Development,4.9,Intermediate,Statistics,97,Hard
+477,Introduction to SQL,4.3,Beginner,Security,75,Hard
+478,Cloud Computing,3.8,Intermediate,Networking,77,Hard
+479,DevOps Essentials,3.8,Advanced,Programming,64,Hard
+480,Rust Programming,4.9,Beginner,Cloud Computing,76,Easy
+481,Cloud Computing,3.5,Intermediate,Data Science,57,Medium
+482,Blockchain Basics,4.2,Intermediate,DevOps,84,Easy
+483,Ethical Hacking,4.7,Advanced,Machine Learning,63,Medium
+484,Introduction to Python,4.6,Beginner,Cloud Computing,83,Medium
+485,Natural Language Processing,3.8,Intermediate,Programming,92,Medium
+486,Advanced Machine Learning,4.2,Intermediate,DevOps,79,Hard
+487,Virtual Reality Development,4.8,Beginner,Programming,94,Hard
+488,Embedded Systems Programming,3.9,Intermediate,Cloud Computing,89,Easy
+489,Node.js and Express.js,4.4,Advanced,AI,62,Medium
+490,Django for Web Development,3.9,Intermediate,Statistics,69,Easy
+491,TensorFlow for AI,4.9,Advanced,Programming,59,Hard
+492,Rust Programming,4.6,Beginner,Python,59,Easy
+493,IT Security,4.7,Advanced,Data Science,77,Easy
+494,Machine Learning Basics,4.9,Beginner,Database,95,Medium
+495,Kubernetes Mastery,4.0,Intermediate,Python,95,Hard
+496,Deep Learning Specialization,4.7,Advanced,Security,93,Easy
+497,Big Data Analytics,4.6,Intermediate,Deep Learning,84,Hard
+498,Cloud Computing,4.8,Advanced,Statistics,100,Medium
+499,Virtual Reality Development,3.9,Intermediate,Cloud Computing,93,Hard
+500,Introduction to SQL,4.8,Beginner,Statistics,90,Medium
