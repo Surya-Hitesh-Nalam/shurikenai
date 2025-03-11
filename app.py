@@ -28,7 +28,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Load dataset for course recommendations
-DATASET_PATH = "C:/Users/karth/Downloads/user_course_data_test.csv"
+DATASET_PATH = "./user_course_data_test.csv"
 df = pd.read_csv(DATASET_PATH)
 
 # Preprocess course data
