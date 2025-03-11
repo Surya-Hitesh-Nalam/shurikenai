@@ -1,0 +1,14 @@
+flask
+flask-cors
+gunicorn
+pandas
+neattext
+scikit-learn
+nltk
+requests
+ffmpeg-python
+openai-whisper
+transformers
+pypdf2
+numpy
+spacy
