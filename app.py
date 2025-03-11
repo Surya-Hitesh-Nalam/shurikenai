@@ -28,7 +28,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Load dataset for course recommendations
-DATASET_PATH = "./user_course_data_test.csv"
+'''DATASET_PATH = "./user_course_data_test.csv"
 df = pd.read_csv(DATASET_PATH)
 
 # Preprocess course data
@@ -53,7 +53,7 @@ cosine_sim_mat = cosine_similarity(tfidf_mat)
 
 # Course index mapping for course recommendations
 course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()
-
+'''
 # Load Whisper model for audio transcription
 model = whisper.load_model("base")
 
@@ -232,7 +232,7 @@ def extract_name_from_resume(text):
         if ent.label_ == "PERSON":
             return ent.text
     return None
-
+'''
 def recommend_courses(test_category, test_score, test_level, top_n=6):
     filtered_df = df[(df['exam_category'] == test_category) &
                      (df['exam_score'] <= test_score) &
@@ -268,7 +268,7 @@ def recommend_courses(test_category, test_score, test_level, top_n=6):
 
     final_recommendations = pd.DataFrame(recommended_courses)
     return final_recommendations['course_id'].unique().tolist()
-
+'''
 def summarize_text(text):
     return summarizer(text, max_length=150, min_length=50, do_sample=False)[0]["summary_text"]
 
@@ -316,7 +316,7 @@ def upload():
         return jsonify({"error": "The provided PDF file is corrupted or invalid."}), 400
     except Exception as e:
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
-
+'''
 # Course recommendation route
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -359,7 +359,7 @@ def add_course():
     course_index = pd.Series(df.index, index=df['course_name']).drop_duplicates()
 
     return jsonify({"message": "Course added successfully"}), 201
-
+'''
 # NLP cleaning route
 @app.route('/nlp_clean', methods=['POST'])
 def nlp_clean():
